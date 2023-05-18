@@ -1,0 +1,17 @@
+<?xml version="1.0">
+<!DOCTYPE address[
+    <!ELEMENT address(name,email,phno,birthday)>
+    <!ELEMENT name(f,l)>
+    <!ELEMENT f(#PCDATA)>
+    <!ELEMENT L(#PCDATA)>
+]>
+<ADDRESS>
+    <NAME>
+        <FIRST>
+        <LAST>
+    </NAME>
+    <EMAIL>
+
+    </EMAIL>
+
+<!DOCTYPE address SYSTEM "ADDRESS.DTD">
